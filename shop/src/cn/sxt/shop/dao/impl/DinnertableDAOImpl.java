@@ -34,4 +34,9 @@ public class DinnertableDAOImpl implements cn.sxt.shop.dao.DinnertableDAO {
 		return bool;
 	}
 
+	@Override
+	public int addinfo() {
+		return 0;
+	}
+
 }
