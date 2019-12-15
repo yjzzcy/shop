@@ -21,5 +21,9 @@ public interface DinnertableDAO {
 	 */
 	public boolean deleteDinnerTable(String id);
 
+	/**
+	 * 
+	 * @return
+	 */
 	int addinfo();
 }
