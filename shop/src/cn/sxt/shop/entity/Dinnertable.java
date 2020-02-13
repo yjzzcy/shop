@@ -4,6 +4,7 @@ import java.util.Date;
 
 public class Dinnertable {
     private Integer id;
+    private Integer idd;
 
     private String tablename;
 

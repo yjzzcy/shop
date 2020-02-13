@@ -11,7 +11,7 @@ import cn.sxt.shop.entity.Dinnertable;
 public interface DinnertableDAO {
 
 	/**
-	 * 查询所有的餐桌信息
+	 * 查询所有的餐桌信息 52102
 	 * @return   餐桌List集合
 	 */
 	public List<Dinnertable> getAll();
@@ -21,9 +21,6 @@ public interface DinnertableDAO {
 	 */
 	public boolean deleteDinnerTable(String id);
 
-	/**
-	 * 
-	 * @return
-	 */
+
 	int addinfo();
 }
